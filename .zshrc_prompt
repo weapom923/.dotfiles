@@ -1,0 +1,7 @@
+# Prompt
+local prompt_retwisecolor="%(?.3.5)"
+local prompt_suffix="%F{6}[ %~ ]%f"
+local prompt="%F{2}%n%f@%F{2}%m%f %F{$prompt_retwisecolor}>%f "
+PROMPT="$prompt_suffix
+$prompt"
+PROMPT2="$prompt"

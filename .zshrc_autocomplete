@@ -1,0 +1,7 @@
+autoload -U compinit; compinit
+
+zstyle ':completion:*:default' menu select=1
+setopt auto_list           #
+setopt auto_menu           #
+setopt auto_param_slash    # Add '/' at the end of a directory path
+setopt mark_dirs           # Add '/' at the end of a directory path

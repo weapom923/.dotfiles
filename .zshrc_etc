@@ -1,0 +1,11 @@
+# Keybind
+bindkey -v
+
+# Command history
+setopt hist_ignore_all_dups
+
+# Change directory
+setopt auto_cd
+
+# Set '/' as NON-WORD
+WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
