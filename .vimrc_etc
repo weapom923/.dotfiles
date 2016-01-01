@@ -1,0 +1,15 @@
+set number
+set laststatus=2
+set cmdheight=2
+set showmatch
+set whichwrap=b,s,h,l,<,>,[,]
+set scrolloff=8
+set noswapfile
+set tabstop=4
+set autoindent
+set smartindent
+set clipboard=unnamed,unnamedplus       " Enable yunking by OS's Clipboard
+set mouse=a                             " Enable moveing a cursor by mouse
+set shellslash                          " Use '/'
+set iminsert=0                          " Turn off IME by default
+set wildmenu wildmode=list:longest,full
