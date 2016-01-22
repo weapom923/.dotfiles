@@ -1,5 +1,7 @@
 set number
 set ruler
+set nocursorline
+set nocursorcolumn
 set laststatus=2
 set cmdheight=2
 set showmatch
@@ -10,7 +12,13 @@ set tabstop=4
 set autoindent
 set smartindent
 set clipboard=unnamed,unnamedplus       " Enable yunking by OS's Clipboard
-set mouse=a                             " Enable moveing a cursor by mouse
+set mouse=a                             " Enable moving a cursor by mouse
 set shellslash                          " Use '/'
 set iminsert=0                          " Turn off IME by default
 set wildmenu wildmode=list:longest,full
+set enc=utf-8
+set fenc=utf-i
+set fencs=utf-8,cp932,euc-jp,iso-2022-jp
+set incsearch
+set hlsearch
+syntax on
