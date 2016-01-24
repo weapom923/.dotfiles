@@ -1,0 +1,2 @@
+map <C-g> :Gtags
+map <C-g>c :GtagsCursor
