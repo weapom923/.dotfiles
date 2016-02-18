@@ -34,4 +34,10 @@ filetype plugin indent off
   " this will conveniently prompt you to install them.
   NeoBundleCheck
 
+  let g:unite_source_grep_command = 'ag'
+  let g:unite_source_grep_default_opts = '--nocolor --nogroup'
+  let g:unite_source_grep_recursive_opt = ''
+  let g:unite_source_grep_max_candidates = 200
+
+
 filetype plugin indent on
