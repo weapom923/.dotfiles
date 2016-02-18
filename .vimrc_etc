@@ -23,4 +23,5 @@ set fenc=utf-i
 set fencs=utf-8,cp932,euc-jp,iso-2022-jp
 set incsearch
 set hlsearch
+set autochdir
 syntax on
