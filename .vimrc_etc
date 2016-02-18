@@ -1,6 +1,6 @@
 set number
 set ruler
-set nocursorline
+set cursorline
 set nocursorcolumn
 set laststatus=2
 set cmdheight=2
