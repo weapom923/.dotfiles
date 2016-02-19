@@ -31,7 +31,7 @@ filetype plugin indent off
     NeoBundle 'ctrlpvim/ctrlp.vim'
     NeoBundle 'flazz/vim-colorschemes'
     NeoBundle 'haya14busa/vim-migemo'
-    NeoBundle 'rking/ag.vim'
+    NeoBundle 'osyo-manga/vim-over'
 
     " You can specify revision/branch/tag.
     NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
