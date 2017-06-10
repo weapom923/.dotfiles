@@ -1,5 +1,5 @@
 " deinパス設定
-let s:dein_dir = expand("$VIM/dein/")
+let s:dein_dir = expand("~/.cache/dein/")
 let s:dein_repo_dir = s:dein_dir . 'repos/github.com/Shougo/dein.vim'
 
 " dein.vim本体の存在チェックとインストール
@@ -18,6 +18,7 @@ if dein#load_state(s:dein_dir)
   call dein#add('Shougo/neocomplcache')
 
   " Plugins
+  call dein#add('Shougo/vimproc', 'build': 'make')
   call dein#add('Shougo/unite.vim')
   call dein#add('Shougo/vimfiler.vim')
   call dein#add('Shougo/neomru.vim')
@@ -40,10 +41,6 @@ filetype plugin indent on
 syntax enable
 
 " プラグインのインストール
-if dein#check_install(['vimproc'])
-  call dein#install(['vimproc'])
-endif
-
 if dein#check_install()
   call dein#install()
 endif
