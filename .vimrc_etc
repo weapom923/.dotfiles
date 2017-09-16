@@ -8,7 +8,7 @@ set showmatch
 set whichwrap=b,s,h,l,<,>,[,],~
 set scrolloff=8
 set list
-set listchars=tab:>\ ,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+set listchars=tab:>\ ,trail:-,eol:~,extends:>,precedes:<,nbsp:%
 set noswapfile
 set tabstop=4
 set autoindent
