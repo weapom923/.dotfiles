@@ -10,7 +10,8 @@ set scrolloff=8
 set list
 set listchars=tab:>\ ,trail:-,eol:~,extends:>,precedes:<,nbsp:%
 set noswapfile
-set tabstop=4
+set tabstop=2
+set expandtab
 set autoindent
 set smartindent
 set clipboard=unnamed,unnamedplus       " Enable yunking by OS's Clipboard
