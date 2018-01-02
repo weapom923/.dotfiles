@@ -12,3 +12,6 @@ WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
 
 # Set PATH
 export PATH="/usr/local/bin:$PATH"
+
+# Set LIBRARY_PATH
+export LIBRARY_PATH="/usr/local/lib:$LIBRARY_PATH"
