@@ -9,3 +9,6 @@ setopt auto_cd
 
 # Set '/' as NON-WORD
 WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
+
+# Set PATH
+export PATH="/usr/local/bin:$PATH"
