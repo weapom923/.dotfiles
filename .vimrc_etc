@@ -10,8 +10,9 @@ set scrolloff=8
 set list
 set listchars=tab:>\ ,trail:-,eol:~,extends:>,precedes:<,nbsp:%
 set noswapfile
-set tabstop=2
 set expandtab
+set tabstop=2
+set shiftwidth=2
 set autoindent
 set smartindent
 set clipboard=unnamed,unnamedplus       " Enable yunking by OS's Clipboard
@@ -20,8 +21,8 @@ set shellslash                          " Use '/'
 set iminsert=0                          " Turn off IME by default
 set wildmenu wildmode=list:longest,full
 set enc=utf-8
-set fenc=utf-i
 set fencs=utf-8,cp932,euc-jp,iso-2022-jp
 set incsearch
 set hlsearch
+set fenc=utf-8
 syntax on
